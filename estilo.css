@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--font-padrao);
+}
+
+header{
+    background-color: var(--cor04);
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+
+header > p{
+    color:white;
+}
+
+nav{
+    background-color:var(--cor05);
+}
+
+main{
+    min-width: 100px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom:30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,418);
+}
